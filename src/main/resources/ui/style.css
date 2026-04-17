@@ -1,0 +1,108 @@
+/* =========================================
+   CONFIGURAÇÃO GERAL E TIPOGRAFIA
+   ========================================= */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-background-color: #020617;
+}
+
+.label, .table-view .column-header .label {
+    -fx-text-fill: #e2e8f0;
+}
+
+/* =========================================
+   ESTILO DOS CARDS DE MÉTRICAS
+   ========================================= */
+.card {
+    -fx-background-color: #0f172a;
+    -fx-padding: 20;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 15, 0, 0, 7);
+    -fx-min-width: 280;
+    -fx-border-color: #1e293b;
+    -fx-border-width: 1;
+    -fx-border-radius: 12;
+}
+
+.label-titulo-card {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.card-padrao .label-valor { -fx-text-fill: #22d3ee; -fx-font-size: 26px; -fx-font-weight: bold; }
+.card-valor-verde .label-valor { -fx-text-fill: #10b981; -fx-font-size: 26px; -fx-font-weight: bold; }
+
+/* =========================================
+   INPUTS E TABELA
+   ========================================= */
+.text-field, .combo-box {
+    -fx-background-color: #020617;
+    -fx-text-fill: white;
+    -fx-border-color: #334155;
+    -fx-border-radius: 8;
+}
+
+.table-view {
+    -fx-background-color: #0f172a;
+    -fx-border-color: #1e293b;
+}
+
+.table-view .column-header, .table-view .filler, .table-view .column-header-background {
+    -fx-background-color: #1e293b;
+}
+
+.table-view .cell {
+    -fx-text-fill: #94e2ff;
+    -fx-padding: 10;
+}
+
+.table-row-cell:odd { -fx-background-color: #0f172a; }
+.table-row-cell:even { -fx-background-color: #0b1120; }
+
+/* =========================================
+   BOTÕES
+   ========================================= */
+.button {
+    -fx-background-color: #0ea5e9;
+    -fx-text-fill: #020617;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.button:hover { -fx-background-color: #38bdf8; }
+.button-remover { -fx-background-color: #f43f5e; -fx-text-fill: white; }
+
+/* =========================================
+   GRÁFICO (PIE CHART) - AJUSTES DE TAMANHO
+   ========================================= */
+.chart-pie {
+    -fx-border-color: #020617;
+    -fx-border-width: 2;
+}
+
+.chart-legend {
+    -fx-background-color: #0f172a;
+    -fx-background-radius: 8;
+    -fx-padding: 15;
+    -fx-border-color: #1e293b;
+}
+
+.chart-legend-item {
+    -fx-text-fill: #e2e8f0;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* =========================================
+   TOOLTIP NEON
+   ========================================= */
+.tooltip {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #22d3ee;
+    -fx-border-color: #22d3ee;
+    -fx-border-width: 1;
+    -fx-background-radius: 5;
+    -fx-padding: 8;
+}
